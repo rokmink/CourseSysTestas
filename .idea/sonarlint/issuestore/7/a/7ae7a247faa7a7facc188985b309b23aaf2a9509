@@ -1,0 +1,22 @@
+
+j
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ùËç×ıÿÿÿÿ8¸ĞöÖÑ/
+[
+java:S1854!">Remove this useless assignment to local variable "properties".(İÌ—8¹ĞöÖÑ/
+j
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(ğ©úÿÿÿÿ8ºĞöÖÑ/
+L
+java:S1481!"/Remove this unused "properties" local variable.(İÌ—8ÁĞöÖÑ/
+[
+java:S1854/">Remove this useless assignment to local variable "properties".(İÌ—8ÃĞöÖÑ/
+g
+java:S4488*"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ßğ©é8ÄĞöÖÑ/
+L
+java:S1481/"/Remove this unused "properties" local variable.(İÌ—8ÅĞöÖÑ/
+p
+java:S44886"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(£¦áüÿÿÿÿ8ÇĞöÖÑ/
+^
+java:S1128"ARemove this unused import 'com.example.lab1.dataStructures.File'.(Õ“Ã8Ü…×Ñ/
+v
+java:S1128"TRemove this unused import 'com.example.lab1.hibernateControllers.FileHibController'.(ç›ÇÚıÿÿÿÿ8Ü…×Ñ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óÂùÆ

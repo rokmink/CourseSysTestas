@@ -1,0 +1,6 @@
+
+7
+java:S1116""Remove this empty statement.(Íéîıÿÿÿÿ
+V	java:S125 "<This block of commented-out lines of code should be removed.(úÃã–ÿÿÿÿÿ
+[	java:S107$"AConstructor has 8 parameters, which is greater than 7 authorized.(¥à ìÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ©ã’

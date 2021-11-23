@@ -1,0 +1,22 @@
+
+^
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(‹­º
+T
+java:S1854!">Remove this useless assignment to local variable "properties".(İÌ—
+^
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(´ôÙĞ
+E
+java:S1481!"/Remove this unused "properties" local variable.(İÌ—
+[
+java:S18540">Remove this useless assignment to local variable "properties".(İÌ—8‡¯ÕÑ/
+e
+java:S4488+"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(½§è¥ÿÿÿÿÿ
+L
+java:S14810"/Remove this unused "properties" local variable.(İÌ—8Š¯ÕÑ/
+i
+java:S44886"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(«ã´¢úÿÿÿÿ
+q
+java:S1128"TRemove this unused import 'com.example.lab1.hibernateControllers.UserHibController'.(ÒºĞ³8«ƒ•ÖÑ/
+^
+java:S1192("HDefine a constant instead of duplicating this literal "Success" 3 times.(ÛÖØ¹
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óÂùÆ

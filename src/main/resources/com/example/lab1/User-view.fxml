@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab1.controllers.UserViewController">
+   <children>
+      <MenuBar layoutX="40.0" layoutY="13.0" prefHeight="26.0" prefWidth="272.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Kursai">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#newProjectForm" text="Redaguoti kursą" />
+              <MenuItem mnemonicParsing="false" onAction="#editCourse" text="Sukurti kursą" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Aplankas">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Sukurti aplanką" />
+                  <MenuItem mnemonicParsing="false" text="Redaguoti aplanką" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Mano paskyra">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#editUserForm" text="Redaguoti" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Failas">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Sukurti failą" />
+                  <MenuItem mnemonicParsing="false" text="Redaguoti failą" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Button layoutX="519.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoff" text="Atsijungti" />
+      <TableView fx:id="user_table" layoutX="40.0" layoutY="73.0" prefHeight="250.0" prefWidth="212.0">
+        <columns>
+          <TableColumn fx:id="userName" prefWidth="75.0" text="Vardas" />
+          <TableColumn fx:id="userLastname" prefWidth="75.0" text="Pavardė" />
+        </columns>
+      </TableView>
+      <ListView fx:id="listView" layoutX="300.0" layoutY="73.0" prefHeight="250.0" prefWidth="245.0" />
+      <TextField fx:id="ddd" layoutX="151.0" layoutY="344.0" />
+   </children>
+</AnchorPane>

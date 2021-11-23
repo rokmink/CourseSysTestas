@@ -1,0 +1,11 @@
+
+A
+java:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ
+ƒ
+java:S1319
+"hThe type of "allUsers" should be an interface such as "List" rather than the implementation "ArrayList".(ôÏ§®øÿÿÿÿ
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¨Ö•Šşÿÿÿÿ
+}
+java:S1319"hThe type of "allUsers" should be an interface such as "List" rather than the implementation "ArrayList".(ï‹Y
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ©ã’

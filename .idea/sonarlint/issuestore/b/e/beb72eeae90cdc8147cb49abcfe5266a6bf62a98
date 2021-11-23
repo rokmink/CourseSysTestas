@@ -1,0 +1,19 @@
+
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(®ÿº£ıÿÿÿÿ
+^
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(Ù®ïß
+Q	java:S125%"<This block of commented-out lines of code should be removed.(Šâı×
+[
+java:S18541">Remove this useless assignment to local variable "properties".(İÌ—8ğÔ…ÖÑ/
+e
+java:S4488,"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ã´¿¡ûÿÿÿÿ
+L
+java:S14811"/Remove this unused "properties" local variable.(İÌ—8òÔ…ÖÑ/
+k
+java:S44888"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(’æù°8Ê›‡ÖÑ/
+e
+java:S1128"CRemove this unused import 'com.example.lab1.dataStructures.Course'.(¾ºİ¶üÿÿÿÿ8™‡ûùÑ/
+c
+java:S1128"ARemove this unused import 'com.example.lab1.dataStructures.User'.(êÄˆşÿÿÿÿ8™‡ûùÑ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óÂùÆ
